@@ -1,1 +1,1 @@
-https://preconstruct.tools/errors/
+https://preconstruct.tools
