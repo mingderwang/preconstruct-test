@@ -1,0 +1,15 @@
+{
+  "name": "test-reconstruct",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "@preconstruct/cli": "^2.2.1"
+  },
+  "scripts":  {
+    "postinstall": "preconstruct dev"
+  },
+  "preconstruct": {
+    "packages": ["packages/*"],
+    "entrypoints": ["index.{js,jsx,ts,tsx}"]
+  }
+}
